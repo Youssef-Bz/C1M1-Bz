@@ -8,33 +8,11 @@
  * misuse of this material. 
  *
  *****************************************************************************/
-/**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
- *
- * <Add Extended Description Here>
- *
- * @author <Add FirsName LastName>
- * @date <Add date >
- *
- */
-#ifndef __STATS_H__
-#define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
-
-/**
- * @brief <Add Brief Description of Function Here>
- *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
- */
-
-
-#endif /* __STATS_H__ */
+void sort_array(unsigned char test[]);
+void print_statistics(int median, int mean, int maximum, int minimum);
+void print_array(unsigned char test[]);
+int find_maximum(unsigned char test[]) ;
+int find_minimum(unsigned char test[]);
+int find_median(unsigned char sorted_array[]);
+int find_mean(unsigned char test[]);
